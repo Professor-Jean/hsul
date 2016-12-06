@@ -1,0 +1,72 @@
+/*Autores: Beatriz Loffi Wensing May, Daniele Souza, Sinthia de Freitas, Tiago Murilo Ochôa da Luz.
+*Data de Criação: 24/11/2016
+*Data de modificação: 24/11/2016
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+#content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+table{
+  width: 100%;
+}
+
+/* DET DE ORCAMENTOS */
+
+.orc_table{
+  margin: inherit;
+  margin: 0px auto;
+}
+
+.orc_table table{
+border: 1px solid;
+}
+
+.orc_table td{
+  min-width: 170px;
+}
+
+.produtos{
+  overflow: auto;
+  word-wrap: normal;
+}
+
+.produtos_lista {
+  text-align: center;
+  font-size: 14px;
+}
+
+.produtos_lista th{
+  padding-bottom: 10px;
+}
+
+.produtos_lista td{
+  padding-bottom: 5px;
+}
+.consultas{
+  border: 1px solid #000;
+}
+.consultas th{
+  border: 1px solid #000;
+}
+.consultas td{
+  border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produtos_pdf p{
+  border: 1px solid;
+}

@@ -1,0 +1,174 @@
+﻿#Beatriz May                 #
+#Ano: 2016                   #
+#v1114                       #
+#____________________________#
+
+Releases v1114:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |
+| 08    | 100   |
+| 11    | 100   |
+| 23    | 100   |
+| 24    | 100   |
+| 25    | 100   |
+| 26    | 100   |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1111:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo a fmins da entrada.
+| 08    | 100   |
+| 11    | 100   |
+| 23    | 100   |
+| 24    |  50   |
+| 25    | 100   |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1110:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo a fmins da entrada.
+| 08    | 100   |
+| 11    | 100   |
+| 23    |  50   |
+| 24    |       |
+| 25    | 100   |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1109:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo a fmins da entrada.
+| 08    | 100   |
+| 11    | 100   |
+| 23    |       |
+| 24    |       |
+| 25    | 100   |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1108:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo a fmins da entrada.
+| 08    | 100   |
+| 11    |  50   |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1107:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo a fmins da entrada.
+| 08    | 100   |
+| 11    |  30   |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+
+Releases v1101:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |estou fazendo o upload de imagens.
+| 08    | 100   |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1031:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |
+| 08    |  80   |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1027:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 100   |
+| 08    |  50   |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs:.
+xxxxxxxxxxxxxx
+
+Releases v1026:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 80    |
+| 08    |       |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs: Adicionei o img no css.
+xxxxxxxxxxxxxx
+
+Releases v1025:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    |  50   |
+| 08    |       |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs: Adicionei o img no css.
+xxxxxxxxxxxxxx
+
+Releases v1020:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    | 30    |
+| 08    |       |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs: Fiz a valida��o do reg. de marca, produto e mov.sa�da e criei o pdf no css.
+xxxxxxxxxxxxxx
+
+Releases v1019:
+.___________________________>
+| DCU   |  %    |     DESC
+| 07    |  15   |
+| 08    |       |
+| 12    |       |
+| 23    |       |
+| 24    |       |
+| 25    |       |
+| 26    |       |
+Obs: Mudei os registros no css e criei o pdiversos e o preco.
+xxxxxxxxxxxxxx

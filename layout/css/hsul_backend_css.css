@@ -1,0 +1,755 @@
+/*Autores: Beatriz Loffi Wensing May, Daniele Souza, Sinthia de Freitas, Tiago Murilo Ochôa da Luz.
+*Data de Criação: 17/08/2016
+*Data de modificação: 31/08/2016
+*/
+
+*{
+  margin: 0;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*HEADER*/
+
+header{
+  height: 1%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 100%;
+}
+
+.logo{
+  width: 180px;
+  height: 80px;
+  float:left;
+}
+
+.logout{
+  height: 70px;
+  width: 170px;
+  float: right;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tablelougout{
+  padding-left: 60px;
+}
+
+.btnlogout{
+  background-color: #770808;
+  color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #770808;
+  width: 55px;
+  height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.areaacessada{
+  display: block;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*NAV*/
+
+nav{
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #0e8ec6;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content li:hover{
+  background-color: #cce6f7;
+  transition-duration: 0.18s;
+  transition-timing-function: ease-in-out;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+.dropdown:hover > .dropbtn{
+  transition-duration: 0s;
+  color: #cce6f7;
+}
+
+.dropbtn{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-weight: bold;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #8cceeb;
+}
+
+.dropdown-content a {
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  padding: 0;
+  z-index: 1;
+}
+
+ul{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a li{
+  width: 285px;
+  padding: 6px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.dropdown-content:last-child{
+  border-bottom: 1px solid;
+}
+
+/*BODY*/
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #f9fdff;
+  height: 100%;
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+}
+
+.conteudo{
+  border: 1px solid;
+  min-height: 71.9%;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 12px;
+  justify-content: center;
+  display: table;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  background-color: #FFF;
+
+}
+
+/*TABELA DE REGISTRO*/
+
+.obg{
+  text-align: center;
+}
+
+.registros{
+  padding: 10px;
+  border: 1px solid;
+  width: 500px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.registros select{
+  width: 175px;
+}
+
+.registros input{
+  width: 175px;
+}
+
+.registros table{
+  margin: 0 auto;
+  width: 400px;
+}
+
+.registros table h4{ /* NEW */
+  text-align: center;
+}
+
+.registros td{
+  min-width: 170px;
+}
+
+.registros button[type=submit]{
+  background-color: #3a7a2f;
+  border: 1px solid #3a7a2f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+
+.registros button[type=reset]{
+  background-color: #bd0602;
+  border: 1px solid #bd0602;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+
+.registros_estados{
+  padding: 10px;
+  border: 1px solid;
+  width: 425px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.registros_filtro{
+  padding: 10px;
+  width: 380px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.registros_filtro select{
+  width: 175px;
+}
+
+.registros_filtro input{
+  width: 175px;
+}
+
+.registros_filtro table{
+  margin: 0 auto;
+}
+
+.registros_filtro td{
+  width: 170px;
+}
+
+.registros_filtro button[type=submit]{
+  background-color: #3a7a2f;
+  border: 1px solid #3a7a2f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+
+.registros_filtro button[type=reset]{
+  background-color: #bd0602;
+  border: 1px solid #bd0602;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.mensagem{
+  padding: 10px;
+  border: 1px solid;
+  width: 300px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 140px;
+  display: table;
+}
+
+.mensagem i{
+  margin-right: 3px;
+}
+
+.mensagem p{
+  margin-top: 10px;
+  font-family: 'Opens Sans', sans-serif;
+}
+
+.mensagem a{
+  border: 1px solid #000;
+  padding: 5px;
+  float:right;
+  margin-top: 10px;
+  background-color:#fff;
+  color: #000;
+}
+
+.mensagem a:hover{
+  background-color: #770808;
+  color: #fff;
+}
+
+/*REGISTRO ORC*/
+
+.registros_orc{
+  padding: 5px;
+  border: 1px solid;
+  width: 800px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 120px
+}
+
+.registros_orc select{
+  width: 175px;
+}
+
+.registros_orc input{
+  width: 175px;
+}
+
+.registros_orc table{
+  margin: 0 auto;
+}
+
+.registros_orc td{
+  min-width: 170px;
+}
+
+.registros_orc button[type=submit]{
+  background-color: #3a7a2f;
+  border: 1px solid #3a7a2f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  margin-right: 330px;
+}
+
+.registros_orc button[type=reset]{
+  background-color: #bd0602;
+  border: 1px solid #bd0602;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+  margin-left: 180px;
+}
+
+.mestre_detalhes_reg{
+    border: 1px solid;
+    width: 750px;
+    position: relative;
+    margin-left: -120px;
+}
+
+.fa.fa-plus{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa.fa-minus{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* DET DE ORCAMENTOS */
+
+.consultas_orc{
+  padding: 5px;
+  border: 1px solid;
+  width: 850px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 120px;
+}
+
+.consultas_orc select{
+  width: 175px;
+}
+
+.consultas_orc input{
+  width: 175px;
+}
+
+.orc_table{
+  margin: inherit;
+  margin: 0px auto;
+  min-width: 730px;
+}
+
+.consultas_orc td{
+  min-width: 170px;
+}
+
+.mestre_detalhes_con{
+  border: 1px solid;
+  width: 850px;
+  position: relative;
+  margin-left: -120px;
+}
+
+.produtos{
+  overflow: auto;
+  word-wrap: normal;
+}
+
+.produtos_lista {
+  text-align: center;
+  font-size: 14px;
+}
+
+.produtos_lista th{
+  padding-bottom: 10px;
+}
+
+.produtos_lista td{
+  padding-bottom: 5px;
+}
+
+/* FILTROS */
+
+.filtros{
+  padding: 5px;
+  border: 1px solid;
+  width: 300px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.filtros select{
+  width: 175px;
+}
+
+.filtros input{
+  width: 175px;
+}
+
+.filtros table{
+  margin: 0 auto;
+}
+
+.filtros td{
+  min-width: 170px;
+}
+
+.filtros button[type=submit]{
+  background-color: #3a7a2f;
+  border: 1px solid #3a7a2f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  margin-right: 102px;
+}
+
+.filtros button[type=reset]{
+  background-color: #bd0602;
+  border: 1px solid #bd0602;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+  margin-left: 122px;
+}
+
+.instrucao{
+  width: 128px;
+  float: left;
+  margin-left: 10%;
+  position:  absolute;
+}
+
+fieldset legend{
+  font-size: 12px;
+}
+
+.observacao{
+  width: 150px;
+  float: left;
+  margin-left: 1%;
+  position:  absolute;
+}
+
+/*TABELA DE CONSULTA*/
+.consultas h2{
+  margin-top: 10px;
+
+}
+
+.consultas table{
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #191f52;
+  border-collapse: collapse;
+  min-width: 400px;
+  max-width: 1050px;
+}
+
+.consultas tr td{
+  border: 1px solid #191f52;
+  border-collapse: collapse;
+}
+
+.consultas th{
+  background-color: #191f52;
+  color: #fff;
+  border: 1px solid #191f52;
+}
+
+.consultas table i{
+  cursor: pointer;
+}
+
+.consultas tr:nth-child(even){
+  background: rgba(25, 31, 82, 0.16);
+}
+
+.consultas tr:hover{
+  background-color: rgba(25, 31, 82, 0.3);
+}
+
+#gerarpdf{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  float: right;
+  margin-right: 20px;
+}
+
+#gerarpdf:hover{
+  background-color: #dce0df;
+  color: #000;
+}
+
+#pdf{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  float: left;
+  position: absolute;
+  top: 200;
+  left: 90;
+  width: 80px;
+}
+
+#pdf:hover{
+  background-color: #dce0df;
+  color: #000;
+}
+
+.preco input{
+  width: 50px;
+  margin-right: 30px;
+}
+
+.fa.fa-check{
+  color: #3a7a2f;
+}
+
+.fa.fa-ban{
+  color: #bd0602;
+}
+
+.fa.fa-ban.declined{
+  color: #bf9796;
+  cursor: default;
+}
+
+.fa.fa-pencil{
+  color: #000000;
+}
+
+.fa.fa-pencil.confirmed{
+  color: #908c8c;
+  cursor: default;
+}
+
+.fa.fa-truck{
+  color: #f6b900;
+}
+
+.instrucao{
+  width: 128px;
+  float: left;
+  margin-left: 10%
+}
+
+fieldset legend{
+  font-size: 12px;
+}
+
+.produtosdaesquerda{
+  float: left;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 410px;
+  padding: 5px;
+}
+
+.produtosdadireita{
+  float: right;
+  border: 1px solid;
+  margin-right: 100px;
+  margin-top: 20px;
+  width: 410px;
+  padding: 5px;
+}
+
+.produtosdaesquerda table{
+  width: 400px;
+}
+
+.produtosdadireita table{
+  width: 400px;
+}
+
+.produtosdaesquerda table img{
+  margin: 0 auto;
+}
+
+.produtosdadireita table img{
+  margin: 0 auto;
+}
+
+.produtosdaesquerda p{
+  padding: 3px;
+}
+
+.produtosdadireita p{
+  padding: 3px;
+}
+
+.pdiversos{
+  margin-left: -80px;
+}
+
+.pdiversos_p{
+  margin-left: -70px;
+  display: inline;
+}
+
+.overflowprodutos{
+  overflow: scroll;
+  width: 200px;
+  height: 80px;
+  margin: 0 auto;
+  border: 1px solid;
+  padding-top: 10px;
+}
+
+.imgemlogonaconsulta{
+  padding-left: 100px;
+}
+
+.img_dropdown{
+    position: relative;
+}
+
+.img_dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.img_dropdown:hover .img_dropdown-content{
+    display: inline;
+    margin-left: -180px;
+    margin-top: -37;
+}
+
+
+/*FOOTER*/
+
+footer{
+  color: rgba(221, 221, 221, 0.85);
+  width: 100%;
+  height: 32px;
+  font-size: 14px;
+  font-family: arial;
+  line-height: 32px;
+  position: relative;
+  margin-top: 12px;
+  bottom: 0;
+  text-align: center;
+  background-color: #770808;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #fff;
+}
+
+/* MODAL BOX */
+
+a {
+  cursor: pointer;
+}
+
+.popup{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top:100px;
+  left: 0;
+  top 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000;
+  background-color: rgba(0,0,0,0.4);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.popup_conteudo {
+    background-color: #feffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 42%;
+}
+
+.popup_conteudo p {
+    padding: 5px;
+}
+
+.fechar {
+    color: #770808;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar:hover, .fechar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,242 @@
+<html>
+  <head>
+    <title> HSUL - Conforto e Lazer </title>
+    <meta charset="utf-8"/>
+    <meta name="Author" content="Beatriz Loffi Wensing May, Daniele Souza, Sinthia de Freitas, Tiago Murilo Ochôa da Luz"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../layout/images/frontend/icon.png">
+    <link href="../layout/css/hsul_backend_css.css" rel="stylesheet" type="text/css"/>
+    <link href="../layout/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="cabecalho"><!--COMEÇO DO CABEÇALHO
+  --><header>
+          <div class="logout">
+            <table class="tablelougout">
+              <tr>
+                <td>usuário</td>
+              </tr>
+              <tr>
+                <td><button class="btnlogout">Sair</button></td>
+              </tr>
+            </table>
+          </div>
+          <img src="../layout/imagens/backend/logo.png" class="logo"/>
+          <h1 class="areaacessada">Área do Funcionário Administrador</h1>
+      </header>
+      <nav>
+        <ul class="dropdown">
+          <li class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i> Registros </li>
+          <ul class="dropdown-content">
+            <a href="#"><li>Registro de Estado</li></a>
+            <a href="#"><li>Registro de Cidade</li></a>
+            <a href="#"><li>Registro de Funcionário</li></a>
+            <a href="#"><li>Registro de Pessoa Física</li></a>
+            <a href="#"><li>Registro de Pessoa Jurídica</li></a>
+            <a href="#"><li>Registro de Categoria de Produto</li></a>
+            <a href="#"><li>Registro de Marca de Produto</li></a>
+            <a href="#"><li>Registro de Produto</li></a>
+            <a href="orcamentos/hs_fmins_orcamentos.php"><li>Registro de Orçamento</li></a>
+          </ul>
+        </ul>
+        <ul class="dropdown">
+          <li class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i> Controles </li>
+          <ul class="dropdown-content">
+            <a href="#"><li>Movimentação de Entrada de Estoque</li></a>
+            <a href="#"><li>Movimentação de Saída de Estoque</li></a>
+            <a href="#"><li>Controle de Orçamento</li></a>
+          </ul>
+        </ul>
+        <ul class="dropdown">
+          <li class="dropbtn"><i class="fa fa-caret-down" aria-hidden="true"></i> Consultas </li>
+          <ul class="dropdown-content">
+            <a href="#"><li>Consulta de Funcionários</li></a>
+            <a href="#"><li>Consulta de Pessoas Físicas</li></a>
+            <a href="#"><li>Consulta de Pessoas Jurídicas</li></a>
+            <a href="#"><li>Consulta de Produtos</li></a>
+            <a href="#"><li>Consulta de Orçamentos Aprovados</li></a>
+            <a href="#"><li>Consulta de Orçamentos Declinados</li></a>
+            <a href="#"><li>Consulta de Serviços Realizados</li></a>
+            <a href="#"><li>Consulta de Estoque</li></a>
+            <a href="#"><li>Relatório de Entrada de Estoque</li></a>
+            <a href="#"><li>Relatório de Saída de Estoque</li></a>
+          </ul>
+        </ul>
+      </nav><!--
+ --></div><!--FIM DO CABEÇALHO
+ --><div class="conteudo">
+        <h2> Bem Vindo!! </h2>
+        <div>
+          <div class="instrucao">
+            <fieldset>
+              <legend>Legenda</legend>
+              <table>
+                <tbody>
+                  <tr>
+                    <td align="center"><a><i class="fa fa-check" aria-hidden="true"></i></a></td>
+                    <td> Confirmar</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><a><i class="fa fa-ban" aria-hidden="true"></i></a></td>
+                    <td>Cancelar</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><a><i class="fa fa-truck" aria-hidden="true"></i></a></td>
+                    <td>Finalizar</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                    <td>Pesquisar</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><a><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+                    <td>Editar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </fieldset>
+          </div>
+          <div class="registros">
+            <table>
+              <tr>
+                <td> Nome: </td>
+                <td> <input /> </td>
+              </tr>
+              <tr>
+                <td> Validade: </td>
+                <td> <input /> </td>
+              </tr>
+              <tr>
+                <td> Marca: </td>
+                <td>
+                  <select>
+                    <option>Selecione..</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td> Categoria: </td>
+                <td>
+                  <select>
+                    <option>Selecione..</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  <button type="reset">Limpar</button>
+                </td>
+                <td>
+                  <button type="submit">Salvar</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="consultas">
+          <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th colspan="4" width="90px">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>bla bla bla</td>
+                <td>53105</td>
+                <td align="center"><a><i class="fa fa-check" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-ban" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <td>balbalblablab</td>
+                <td>53105</td>
+                <td align="center"><a><i class="fa fa-truck" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-ban" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-pencil confirmed" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <td>blabalbla</td>
+                <td>53105</td>
+                <td align="center"><a><i class="fa fa-check" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-ban declined" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <td>blablabla</td>
+                <td>53105</td>
+                <td align="center"><a><i class="fa fa-truck" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-ban" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <td>blablabla</td>
+                <td>53105</td>
+                <td align="center"><a><i class="fa fa-truck" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-ban" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                <td align="center"><a><i class="fa fa-pencil confirmed" aria-hidden="true"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="produtosdaesquerda">
+            <table>
+              <tr>
+                <td>
+                  <div class="img_dropdown">
+                    <img src="../layout/imagens/backend/arcondicionado.jpg" width="140px" height="140px">
+                    <div class="img_dropdown-content">
+                      <img src="../layout/imagens/backend/arcondicionado.jpg" width="215px" height="215px">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p align="center">000001</p>
+                  <p align="center">Banheira bla bla</p>
+                  <img src="#" class="imgemlogonaconsulta" width="50px" height="20px"/>
+                  <p class="overflowprodutos"></p>
+                  <p align="center">R$1239,90</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="produtosdadireita">
+            <table>
+              <tr>
+                <td>
+                  <div class="img_dropdown">
+                    <img src="img_fjords.jpg" width="140px" height="140px">
+                    <div class="img_dropdown-content">
+                      <img src="img_fjords.jpg" width="215px" height="215px">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p align="center">000002</p>
+                  <p align="center">Ar condicionado bla bla</p>
+                  <img src="#" class="imgemlogonaconsulta" width="50px" height="20px"/>
+                  <p class="overflowprodutos"></p>
+                  <p align="center">R$1239,90</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </div><!--
+ --><footer><p>© Copyright 2016 <a href="http://www.hsul.com.br">HSUL - Conforto e Lazer</a> | <a href="#">Desenvolvedores</a></p></footer><!--
+ --></body>
+</html>

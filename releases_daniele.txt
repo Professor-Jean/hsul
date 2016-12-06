@@ -1,0 +1,101 @@
+#Daniele Souza               #
+#Ano: 2016                   #
+#v1110                       #
+#____________________________#
+Releases v1110:
+.___________________________>
+| DCU |  %  |     DESC
+|  12 |  10 | dificuldade nas sintaxes
+xxxxxxxxxxxxxx
+Obs:.
+-----------------------------------------------
+Releases v1109:
+.___________________________>
+| DCU |  %  |     DESC
+|  19 |  100| Filtros ja feitos, fazendo a parte de aparecer os dados.
+xxxxxxxxxxxxxx
+Obs:. Certa dificuldade nisso
+-----------------------------------------------
+Releases v1108:
+.___________________________>
+| DCU |  %  |     DESC
+|  04 |  100| Consegui fazer tudo em 3hrs de trabalho
+|  05 |  100| Terminando delete.
+xxxxxxxxxxxxxx
+Obs:. Vou começar as consultas amanhã dia 08/11
+-----------------------------------------------
+Releases v1107:
+.___________________________>
+| DCU |  %  |     DESC
+|  05 |  90 | Terminando delete.
+xxxxxxxxxxxxxx
+Obs:.
+-----------------------------------------------
+Releases v1103:
+.___________________________>
+| DCU |  %  |     DESC
+|  05 |  80 | problemas para fazer update em duas tabelas diferentes.
+xxxxxxxxxxxxxx
+Obs:. Comecei o registro de pessoa física, mas não acabei, parei na ins.
+-----------------------------------------------
+Releases v1101:
+.___________________________>
+| DCU |  %  |     DESC
+|  05 |  40 | Tendo problemas na fmupd e upd, a preparação do git comeu muito tempo.
+xxxxxxxxxxxxxx
+Obs:.
+-----------------------------------------------
+Releases v1031:
+.___________________________>
+| DCU |  %  |     DESC
+|  02 |  100| Completo.
+|  05 |  40 | Fmins e ins terminadas.
+xxxxxxxxxxxxxx
+Obs:.
+------------------------------------------------
+Releases v1030:
+.___________________________>
+| DCU |  %  |     DESC
+|  02 |  80 | falta apenas del, upd com problemas na mensagem de sucesso.
+xxxxxxxxxxxxxx
+Obs:. problema em identificar o problema, porém fiz todas as validações php das páginas de registro.
+-------------------------------------------------
+Releases v1026:
+.___________________________>
+| DCU |  %  |     DESC
+|  02 |  80 | falta apenas del, upd com problemas na mensagem de sucesso.
+xxxxxxxxxxxxxx
+Obs:.
+-------------------------------------------------
+Releases v1025:
+.___________________________>
+| DCU |  %  |     DESC
+|  02 |  45 | fmins, ins, e fmup prontas, apenas faltam a del e a upd
+xxxxxxxxxxxxxx
+Obs:.
+-------------------------------------------------
+Releases v1020:
+.___________________________>
+| DCU |  %  |     DESC
+|  05 |  15 | fazendo validações dos campos
+|  11 |  15 | fazendo validações dos campos
+|  02 |  10 | Apenas feito o layout
+|  04 |  10 | Apenas feito o layout
+|  22 |  10 | Apenas feito o layout
+|  19 |  10 | Apenas feito o layout
+|  21 |  10 | Apenas feito o layout
+xxxxxxxxxxxxxx
+Obs:. Dando erro na página de mov.entrada
+---------------------------------------------------
+Releases v1019:
+.___________________________>
+| DCU |  %  |     DESC
+|  05 |  10 | Apenas feito o layout
+|  11 |  10 | Apenas feito o layout
+|  02 |  10 | Apenas feito o layout
+|  04 |  10 | Apenas feito o layout
+|  22 |  10 | Apenas feito o layout
+|  19 |  10 | Apenas feito o layout
+|  21 |  10 | Apenas feito o layout
+xxxxxxxxxxxxxx
+Obs:. Mudei na class "registros", width: 380px;

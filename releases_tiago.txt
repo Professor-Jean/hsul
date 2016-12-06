@@ -1,0 +1,114 @@
+﻿#Tiago Murilo Och�a da Luz   #
+#Ano: 2016                   #
+#v1123                       #
+#____________________________#
+
+
+Releases v1123:
+.___________________________>
+| DCU |  %  |     DESC
+| EXT | --- |  Estou corrigindo uns erros e fazendo as validações JavaScript
+xxxxxxxxxxxxxx
+
+-----------------------------------
+
+Releases v1122:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 | 100 |
+xxxxxxxxxxxxxx
+
+-----------------------------------
+
+Releases v1121:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  92 |
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1120:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  90 |
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1119:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  60 |
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1118:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  30 | Estava tendo problemas com o hs_mestredetalhe_js.js e ajax
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1116:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  30 | Registro de Or�amentos, comecei a implementar ajax e o mestredetalhes
+|  29 | 100 | Dei umas ajustadas na Consulta de Servi�os Realizados.
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1114:
+.___________________________>
+| DCU |  %  |     DESC
+|  14 | 100 | Confirma��o de or�amentos.
+|  29 | 100 | Consulta de Servi�os Realizados.
+|Extra| 100 | Controle de Or�amentos.
+|Extra|  -  | Arrumei alguns erros bobos que haviam em bot�es de voltar.
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1109:
+.___________________________>
+| DCU |  %  |     DESC
+|  20 | 100 | Fiz a consulta detalhada de clientes fisicos.
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1025:
+.___________________________>
+| DCU |  %  |     DESC
+|Extra|  -  | Fiz o Login funcionar por isso parei com esse DCU13.
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1024:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  10 | parei, pois comecei a fazer outras coisas. Registro de Or�amentos
+|Extra|  -  | comecei a estilizei
+|  6  | 100 | Registor de categorias
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1019:
+.___________________________>
+| DCU |  %  |     DESC
+|  13 |  10 | Completei a estiliza��o, mas falta toda programa��o. Registro de Or�amentos
+|  01 | 100 | Registro de estados
+xxxxxxxxxxxxxx
+
+----------------------------------
+
+Releases v1018:
+.___________________________>
+|  DCU  |  %  |     DESC
+|   1   |  70 | Registro de estados
+xxxxxxxxxxxxxx
